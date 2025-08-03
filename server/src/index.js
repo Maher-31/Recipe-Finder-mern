@@ -21,7 +21,7 @@ app.use("/recipes", recipesRouter);
 
 mongoose
   .connect(
-    "mongodb+srv://shrudex:493219@recipebook.b1ir6uj.mongodb.net/recipeBook"
+    "mongodb+srv://mahershalal6789:BFzf4dwHAZPDpDjI@cluster0.nadcqfh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     console.log("Connected to MongoDB");
